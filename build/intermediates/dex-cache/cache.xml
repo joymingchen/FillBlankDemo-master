@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\joyming chen\.android\build-cache\3d3168b2fbfe4cb81ce0b91f63ab39e42f002268\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="C:\Users\joyming chen\Desktop\Project\FillBlankDemo-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_981daa5adf462cc56034142084cb16da5a583de4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\joyming chen\.android\build-cache\fb8900a9cae77065559bb48cb06a8d3478262a61\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="C:\Users\joyming chen\Desktop\Project\FillBlankDemo-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_198fa5cffce81d9e3318b5d1020958752a2265b1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\joyming chen\Desktop\Project\FillBlankDemo-master\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="00133bbf433542b6c8594651e763819b72b2581c">
+        <dex dex="C:\Users\joyming chen\Desktop\Project\FillBlankDemo-master\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_4518585bcbea49790e5a7f465f434834d4fabc31\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\joyming chen\AppData\Local\Android\Sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\joyming chen\Desktop\Project\FillBlankDemo-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.2_4cbf4f326f8b8f8ea1232d0ac7ae11ccfd36c8cd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\joyming chen\.android\build-cache\d616653e7f67f2379de4d2d6b247477c6023a5d2\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="C:\Users\joyming chen\Desktop\Project\FillBlankDemo-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ff85ba198d8cff971f30a4e629893ca3b817547f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\joyming chen\.android\build-cache\37797fc1836fed60b7a684e262fb559a9150e4fa\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="C:\Users\joyming chen\Desktop\Project\FillBlankDemo-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4c401bde5488fc64c1346a331c62960ae011ea9a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\joyming chen\.android\build-cache\97b60306e538b9c9e3448f7951700b6c3be899e3\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\joyming chen\Desktop\Project\FillBlankDemo-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5a5a4bdcbe74cfbaec80db48f03e17ad7e9b21f5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\joyming chen\.android\build-cache\d9ae959651c5ed0cf6bdb98f9a58c54cb003a130\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="C:\Users\joyming chen\Desktop\Project\FillBlankDemo-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_56f2d810413876fdd517cc0c03b1d68ae744e4cc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\joyming chen\.android\build-cache\9afa1c00687f4d9838afe0a716bbf72d84873765\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\joyming chen\Desktop\Project\FillBlankDemo-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_bbb1c195c119a75d3cac430c64f40921fc19d1cf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\joyming chen\.android\build-cache\62cb93c3f4b286b1b79662ef332a102e09b9d992\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="C:\Users\joyming chen\Desktop\Project\FillBlankDemo-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5b68c3eb23fa419a50c533497233f0ae521bf68f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\joyming chen\.android\build-cache\f9917a2642967aec823cd830d3f9c1bfcf3efe8d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="C:\Users\joyming chen\Desktop\Project\FillBlankDemo-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2e103d7d631dc356042bc26c636a2e2579c15997\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\joyming chen\Desktop\Project\FillBlankDemo-master\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\joyming chen\Desktop\Project\FillBlankDemo-master\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_54d117bc48f2d29f9979712af4e9d978f11897ed\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\joyming chen\.android\build-cache\ed384d0d5aaadb1bb503f8e74b3cf03e3a2f9afb\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="C:\Users\joyming chen\Desktop\Project\FillBlankDemo-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_359e38b67a7643662b3262c997a61faee1affb0f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\joyming chen\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="C:\Users\joyming chen\Desktop\Project\FillBlankDemo-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-26.0.0-alpha1_c923e060ed127b1672096da653a4d2f78340bae4\classes.dex" />
+    </item>
+
+</items>
