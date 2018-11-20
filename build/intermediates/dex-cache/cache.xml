@@ -12,21 +12,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\joyming chen\.android\build-cache\fb8900a9cae77065559bb48cb06a8d3478262a61\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
-        <dex dex="C:\Users\joyming chen\Desktop\Project\FillBlankDemo-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_198fa5cffce81d9e3318b5d1020958752a2265b1\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\joyming chen\Desktop\Project\FillBlankDemo-master\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
         sha1="00133bbf433542b6c8594651e763819b72b2581c">
         <dex dex="C:\Users\joyming chen\Desktop\Project\FillBlankDemo-master\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_4518585bcbea49790e5a7f465f434834d4fabc31\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\joyming chen\.android\build-cache\fb8900a9cae77065559bb48cb06a8d3478262a61\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="C:\Users\joyming chen\Desktop\Project\FillBlankDemo-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_198fa5cffce81d9e3318b5d1020958752a2265b1\classes.dex" />
     </item>
     <item
         is-multidex="true"

@@ -2,7 +2,10 @@ package com.demo.tangminglong.fillblankdemo;
 
 import android.content.Context;
 import android.graphics.Canvas;
+import android.graphics.Color;
 import android.graphics.Paint;
+import android.graphics.Rect;
+import android.graphics.RectF;
 import android.support.annotation.NonNull;
 import android.text.Layout;
 import android.text.Spannable;
@@ -35,13 +38,13 @@ public class ReplaceSpan extends ReplacementSpan {
     public int id = 0;//回调中的对应Span的ID
 
 
-    public ReplaceSpan(Context context,Paint paint) {
+    public ReplaceSpan(Context context, Paint paint) {
         this.context = context;
         mPaint = paint;
-        textWidth = DensityUtils.dp2px(context,textWidth);
+        textWidth = DensityUtils.dp2px(context, textWidth);
     }
 
-    public void setDrawTextColor(int res){
+    public void setDrawTextColor(int res) {
         mPaint.setColor(context.getResources().getColor(res));
     }
 
@@ -60,17 +63,25 @@ public class ReplaceSpan extends ReplacementSpan {
                      int y, int bottom,
                      @NonNull Paint paint) {
 
-        float bottom1 =  paint.getFontMetrics().bottom;
-        float y1 = y+bottom1;
+        float bottom1 = paint.getFontMetrics().bottom;
+        float y1 = y + bottom1;
 
         CharSequence ellipsize = TextUtils.ellipsize(mText, (TextPaint) paint,
                 textWidth, TextUtils.TruncateAt.END);
-        int width = (int)paint.measureText(ellipsize,0,ellipsize.length());
+        int width = (int) paint.measureText(ellipsize, 0, ellipsize.length());
+        //画背景
+        Paint paint1 = new Paint();
+        paint1.setColor(Color.parseColor("#BFBFBF"));
+        paint1.setStyle(Paint.Style.FILL);//设置空心
+        RectF rect = new RectF((int)x, top,(int)(x + textWidth), (int)y1);
+        canvas.drawRoundRect(rect,DensityUtils.dp2px(context,5),
+                DensityUtils.dp2px(context,5), paint1);
 
-        width = (textWidth-width)/2;
+        width = (textWidth - width) / 2;
 
-        canvas.drawText(ellipsize,0,ellipsize.length(),  x+width,
-                (float) y,mPaint);
+
+        canvas.drawText(ellipsize, 0, ellipsize.length(), x + width,
+                (float) y, mPaint);
 
         //需要填写的单词下方画线
         //这里bottom-1，是为解决有时候下划线超出canvas
@@ -78,16 +89,16 @@ public class ReplaceSpan extends ReplacementSpan {
 
         linePaint.setColor(mPaint.getColor());
         linePaint.setStrokeWidth(2);
-        canvas.drawLine(x, y1, x + textWidth, y1, linePaint);
+        //canvas.drawLine(x, y1, x + textWidth, y1, linePaint);
     }
 
-    public void onClick(TextView v, Spannable buffer, boolean isDown, int x, int y, int line, int off){
-        if (mOnClick != null){
-            mOnClick.OnClick(v,id,this);
+    public void onClick(TextView v, Spannable buffer, boolean isDown, int x, int y, int line, int off) {
+        if (mOnClick != null) {
+            mOnClick.OnClick(v, id, this);
         }
     }
 
-    public  interface OnClickListener{
+    public interface OnClickListener {
         void OnClick(TextView v, int id, ReplaceSpan span);
     }
 
